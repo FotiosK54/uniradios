@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greek Uni Radio Marathon</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TimelineMax.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script> 
+    <!-- <script src="https://use.fontawesome.com/22ecbf45c1.js"></script> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+
+    <script>
+        function customScrollRight() {
+            var leftPos = $('.curator_list').scrollLeft();
+		$(".curator_list").animate({scrollLeft: leftPos + $(window).width() * 0.8}, 800);
+        }
+
+        function customScrollLeft() {
+            var leftPos = $('.curator_list').scrollLeft();
+            $(".curator_list").animate({scrollLeft: leftPos - $(window).width() * 0.8}, 800);
+	    }
+    </script>
+    
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Wave bg-->
+        <div class="wave-container">
+            <div class="wave -one"></div>
+            <div class="wave -two"></div>
+            <div class="wave -three"></div>
+        </div>
+        <div class="line">
+            The First Greek Universities Radio Marathon
+            <!-- Comming Up at 9.4.22 -->
+            <span class="underline"></span>
+        </div>
+        <div class="text-wrap">
+            <div class="text">
+                <span>L</span><span>I</span><span>S</span><span>T</span><span>E</span><span>N</span>
+                <!-- <p class="now_playing">Now Playing: </p> -->
+                <div class="main-btn_wrapper">
+                    <i class="main-btn fa fa-play" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="burger-wrapper">
+                <div class="burger"></div>
+            </div>
+            <div class="logo-text">Greek Uni Radio Marathon</div>
+            <div class="back_btn">
+                <div class="circle"></div>
+                <div class="text">Home</div>
+            </div>
+        </div>
+        <div class="nav">
+            <ul class="nav_main">
+                <li> <a class="nav_link go_home">Home </a></li>
+                <li> <a class="nav_link stations_more">Stations</a></li>
+                <li> <a class="nav_link chat_more">Chat</a></li>
+                <!-- <li> <a class="nav_link">LP. Mix</a></li> -->
+            </ul>
+            <div class="nav_divider"></div>
+            <ul class="nav_sub">
+                <li><a class="nav_link donate_more">Donate </a></li>
+                <li><a class="nav_link about_more">About </a></li>
+                <!-- <li><a class="nav_link" href="">Contact </a></li> -->
+            </ul>
+        </div>
+        <div class="mini-player">
+            <div class="track_info_wrapper">
+                <div class="track_info">
+                    <div class="thumb"></div>
+                    <div class="info">
+                        <div class="title">Entasi Radio 93.5 FM</div>
+                        <div class="artist">Chania</div>
+                    </div>
+                </div>
+            </div>
+            <div class="mini-player_btn_wrapper">
+                <!-- <i class="btn-stop fa fa-stop" aria-hidden="true"></i> -->
+                <div class="btn-switch">
+                    <i class="btn-play fa fa-play" aria-hidden="true"></i>
+                    <i class="btn-pause fa fa-pause" aria-hidden="true"></i>
+                </div>
+                <!-- <div class="btn-switch">
+                    <i class="btn-unmute fa fa-volume-up" aria-hidden="true"></i>
+                    <i class="btn-mute fa fa-volume-off" aria-hidden="true" ></i>
+                </div> -->
+                <!-- <i class="btn-next fa fa-step-forward" aria-hidden="true"></i> -->
+                <i class="btn-open-player fa fa-list" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="dim"></div>
+        <div class="player" id="player">
+            <div class="playback_wrapper">
+                <div class="playback_blur"></div>
+                <div class="playback_thumb"></div>
+                <div class="playback_info">
+                    <div class="title">Entasi Radio 93.5</div>
+                    <div class="artist">Chania</div>
+                    <div class="nowonair" style="margin-top: 20px"></div>
+                </div>
+                <div class="nowonair_mobile"></div>
+                <div class="playback_btn_wrapper">
+                    <i class="btn-prev fa fa-step-" aria-hidden="true"></i>
+                    <div class="btn-switch">
+                        <i class="btn-play fa fa-play" aria-hidden="true"></i>
+                        <i class="btn-pause fa fa-pause" aria-hidden="true"></i>
+                    </div>
+                    <i class="btn-next fa fa-step-" aria-hidden="true"></i>
+                </div>
+                <div class="playback_timeline">
+                    <div id="volume-player">
+                        <i class="fa fa-volume-down"></i>
+                        <div id="volume"></div>
+                        <i class="fa fa-volume-up"></i>
+                    </div>
+                    <!-- <div class="playback_timeline_start-time">00:31</div> -->
+                    <!-- <i class="btn-play fa fa-volume" aria-hidden="true"></i> -->
+                    <!-- <i class="fas fa-volume-down"></i> -->
+                    <!-- <i class="btn-mute fa fa-volume-off" aria-hidden="true"></i> -->
+                    <!-- <div class="playback_timeline_slider" style="margin-right: 2rem; margin-left:2rem;">
+                        <div class="slider_base"></div>
+                        <div class="slider_progress"></div>
+                        <div class="slider_handle"></div>
+                    </div> -->
+                    <!-- <i class="btn-play fa fa-volume-up" aria-hidden="true"></i> -->
+                    <!-- <div class="playback_timeline_end-time">03:11</div> -->
+                    
+
+                </div>
+            </div>
+            <div class="list_wrapper">
+                <ul class="list player_list">
+                    <!-- Sample item
+                        <li class="list_item selected">
+                        <div class="thumb"> </div>
+                        <div class="info">
+                            <div class="title">Entasi Radio 93.5</div>
+                            <div class="artist">Chania</div>
+                            <div class="stream_url" style="display:none">https://entasistream.tuc.gr/radio/8000/main.mp3</div>
+                        </div>
+                    </li>
+                    --->
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <a href='https://entasiradio.tuc.gr/' target="_blank">Entasi Radio 93.5 &copy;2022</a> | Powered by <a href="https://github.com/vskevakis" target="_blank">Vasilis Skevakis</a>
+        </div>
+        <div class="page" id="curator">
+            <div class="curator_title_wrapper ">
+                <div class="scroll-left"><a href="javascript:customScrollLeft()"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></div>
+                <div class="curator_line"></div>
+                <div class="curator_title" href="#">Stations</div>
+                <div class="curator_line" ></div>
+                <div class="scroll-right"><a href="javascript:customScrollRight()"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+            </div>
+            
+            <div class="curator_list"  style="overflow-x: scroll">
+                <div class="curator_list_content" >
+                    <div class="connect_btn_wrapper item" style="display:none">
+                        <div class="connect_btn">
+                            <div class="connect_btn_text">Connect <br />SoundCloud</div>
+                        </div>
+                    </div>
+                     <!-- Sample Item
+                    <div class="item">
+                        <div class="thumb"></div>
+                        <div class="info">
+                            <div class="name">Radio Entasi 93.5</div>
+                            <div class="desc">Chania</div>
+                        </div>
+                        <div class="website" style="display: none;">https://entasiradio.tuc.gr/</div>
+                        <div class="description" style="display: none;">
+                            Ο Ραδιοφωνικός σταθμός του Πολυτεχνείου Κρήτης είναι από τους πρώτους πανεπιστημιακούς ραδιοφωνικούς σταθμούς στην Ελλάδα. Δημιουργήθηκε το 1995 από μία ομάδα φοιτητών της πολυτεχνικής κοινότητάς μας. Από τότε, ο σταθμός έχει εξελιχθεί από ένα απλό ερασιτεχνικό σταθμό σε ένα σταθμό ημιεπαγγελματικού, αν όχι επαγγελματικού, επιπέδου. 
+                        </div>
+                    </div>
+                    --->
+                </div>
+            </div>
+        </div>
+        <div class="page" id="radio_info" style="display: none">
+            <div class="radio_info_center">
+                <div class="radio_image_title">
+                    <img src="./assets/vintage-radio.webp" height="250px" style="border-radius: 50%">
+                    <a style="overflow-wrap: break-word;">
+                        Radio Title
+                    </a>
+                </div>
+                <div class="radio_subtitle" style="overflow-wrap: break-word;">
+                    Description
+                </div>
+                <a class="go_back">Back</a>
+                <a class="visit_web">Visit Website</a>
+            </div>
+        </div>
+        <div class="page" id="donate_page" style="display: none">
+            <div class="donate_center">
+                <img src="./assets/arms.png" height="200px" style="border-radius: 50%">
+                <div class="text">
+                <h1> Τρόποι οικονομικής ενίσχυσης της κοινωνικής κουζίνας "Ο Άλλος Άνθρωπος" </h1>
+                <ul>
+                    <li style="margin-bottom: 1rem; text-decoration: underline;"> ΤΡΑΠΕΖΑ ΠΕΙΡΑΙΩΣ
+                        <p>IBAN: GR19 0171 5900 0065
+                        9014 5425 691 </p>
+                        <p>ΔΙΚΑΙΟΥΧΟΣ: Βασιλική Καρρά</p>
+                        <p>ΑΙΤΙΟΛΟΓΙΑ: ΠΑΝΕΠΙΣΤΗΜΙΑΚΟΣ ΡΑΔΙΟΜΑΡΑΘΩΝΙΟΣ</p>
+                    </li>
+                    <li style="margin-bottom: 1rem;"> ή/ και </li>
+                    <li style="margin-bottom: 1rem;">  
+                        <a href="https://www.paypal.me/oallosanthropos" target="_blank"> <i style="font-size: 4rem" class="fa fa-cc-paypal fa-xl" aria-hidden="true"></i>
+                        </a>    
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="about">
+            <div class="about_list">
+                <div class="about_center">
+                    <img src="./assets/allos_anthropos.jpg" height="200px" style="border-radius: 50%">
+                    <div class="about_title" style="overflow-wrap: break-word;">
+                        <p>Στις 9 Απριλίου του 2022, τα ελληνικά φοιτητικά ραδιόφωνα ενώνουν τις δυνάμεις τους για 24 ωρες ώστε να στηρίξουν τη δράση της κοινωνικής κουζίνας "Ο Άλλος Άνθρωπος"</p>
+                        <p>Ο «Άλλος Άνθρωπος» είναι κοινωνική κουζίνα. Σύμφωνα με "τον ίδιο", "είναι μια αυτοδιαχειριζόμενη δράση, όπου όσοι συμμετέχουν ευνοούνται. Όλοι και όλες είναι ίσοι και ίσες γύρω από την κατσαρόλα, μαγειρεύουν μαζί και τρώνε από το ίδιο φαγητό και ας είναι διαφορετικοί/ές από κάθε άποψη. Για να γίνει ένα μαγείρεμα, όμως, έχει ήδη προηγηθεί μια κινητοποίηση άλλων ανθρώπων, οι οποίοι έκαναν γνωστή την δράση στους φίλους τους, στο σχολείο των παιδιών τους, στο αθλητικό σύλλογο της περιοχής τους, στο μπαράκι της γειτονιάς, στους συναδέλφους τους και μετά κάποιοι άλλοι άνθρωποι οργάνωσαν μια εκδήλωση, κάποιοι το επικοινώνησαν στο Facebook, σχεδίασαν μια αφίσα, διοργάνωσαν ένα πάρτι, μία συναυλία, μια παράσταση, κάλεσαν τους γνωστούς τους. Μετά κάποιοι άλλοι άνθρωποι, πήγαν στην εκδήλωση και πρόσφεραν είδη & τρόφιμα μαζί με άλλα καλούδια που τους φόρτωσαν κάποιο άλλοι άνθρωποι που βοηθούν εξ αποστάσεως. Έτσι δημιουργείται μια αλληλεπίδραση, επικοινωνία και κινητοποίηση διαφόρων ανθρώπων κ ειδικοτήτων που τελικά συνεργάζονται για ένα κοινό σκοπό." Τον "Άλλον Άνθρωπο" θα τον βρείτε στο χώρο του (Μ. Αλεξάνδρου 199, Κεραμεικός), αλλά και κυρίως στους δρόμους και τις πλατείες της Αθήνας και άλλων πόλεων της χώρας μας. Αυτό τον καιρό, θα "τον" βρείτε και στα σύνορα της Ρουμανίας με την Ουκρανία να βοηθάει τους/τις πρόσφυγες με όποιον τρόπο μπορεί. Γενικώς, θα τον βρείτε σε πολλά μέρη, μιας και, όπως μας είπε ο ιθύνων νους του, Κωνσταντίνος Πολυχρονόπουλος, "ο Άλλος Άνθρωπος είστε εσείς".
+                        </p>
+                        <a style="text-decoration: underline;" target="_blank" href="https://www.facebook.com/%CE%9F-%CE%91%CE%BB%CE%BB%CE%BF%CF%82-%CE%91%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82-%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CE%B7-%CE%9A%CE%BF%CF%85%CE%B6%CE%B9%CE%BD%CE%B1-%CE%94%CF%89%CF%81%CE%B5%CE%B1%CE%BD-%CE%A6%CE%B1%CE%B3%CE%B7%CF%84%CE%BF-%CE%93%CE%B9%CE%B1-%CE%9F%CE%BB%CE%BF%CF%85%CF%82-628150187199571/"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Find out More <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="page" id="chat">
+            <div class="chat_list">
+                <div class="chat_center">
+                    <iframe src="https://minnit.chat/RadioMarathon?embed&&nickname=" style="border:none;width:90%;height:500px;" allowTransparency="true"></iframe><br><a href="https://minnit.chat/RadioMarathon" target="_blank"></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

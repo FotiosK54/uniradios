@@ -1,0 +1,152 @@
+@media only screen and (max-width: 768px) {
+    .header .logo-text {
+        display: none !important;
+    }
+
+    .text-wrap .text {
+        right: 8%;
+      }
+
+    #player {
+        width: 80% !important
+    }
+
+    .playback_wrapper {
+        height: 200px;
+    }
+
+    .playback_thumb {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .playback_info {
+        left: 70px !important;
+
+    }
+
+    .playback_info .title {
+        font-size: 20px;
+    }
+
+    .playback_info .artist {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    .playback_btn_wrapper {
+        top: 65%;
+        left: 30%;
+    }
+
+    .playback_timeline {
+        display: none;
+        left: 0px;
+        width: 100%;
+        top: 80%;
+    }
+
+    #volume {
+        display: none;
+        width: 82%;
+    }
+
+    .list_wrapper {
+        height: calc(100% - 200px);
+    }
+
+    .chat_center {
+        width: 90vw;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .donate_center {
+        width: 85vw;
+        height: 40vh;
+    }
+
+    .about_title {
+        width: 85vw;
+        height: 50%;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    .back_btn {
+        display: none !important;
+    }
+
+    .line {
+        font-size: 1.5rem;
+        overflow-wrap: normal;
+        top: 25%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+    }
+
+    .about_center {
+        top: 45%;
+    }
+
+    #radio_info {
+        width: 80vw;
+        height: auto;
+    }
+
+    #radio_info .radio_image_title {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #radio_info .radio_image_title a {
+        height: auto;
+        line-height: inherit;
+        font-size: 2rem;
+        overflow: hidden;
+        width: 100vw;
+        margin-left: unset;
+        text-align: center;
+    }
+
+    #radio_info .radio_image_title img {
+        width: 100px;
+        height: 100px;
+        float: unset;
+    }
+
+    #radio_info .radio_subtitle {
+        text-align: center;
+    }
+
+    .nowonair {
+        display: none;
+    }
+
+    .nowonair_mobile {
+        display: block;
+        top: 85%;
+        left: 40%;
+        position: absolute;
+    }
+
+    #donate_page h1 {
+        font-size: 1.5rem !important;
+    }
+
+    #donate_page .donate_center {
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+
+}
