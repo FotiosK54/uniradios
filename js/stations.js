@@ -64,8 +64,8 @@ var stations = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sapien et lorem euismod tempus non sed sapien. Donec porta velit a nisl sodales suscipit. Quisque sagittis interdum eros, ac auctor diam consectetur at. Aliquam mollis, augue non vehicula bibendum, lectus sapien facilisis urna, vitae mollis nunc nisi vel nisi. Etiam lacinia convallis mattis. Curabitur vel pharetra orci. Nam id tristique neque, in mollis mi. Maecenas vel nisi quis diam placerat posuere. Maecenas nec ligula odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque efficitur, elit et convallis faucibus, eros ex fermentum mi, condimentum faucibus ligula felis quis orci. Duis venenatis convallis lorem et porttitor. Duis ornare nulla ac felis tristique, a sagittis felis scelerisque. Aliquam vitae posuere eros."
     },
     {
-        "title": "Ράδιο Πάντειον",
-        "town": "Αθήνα",
+        "title": "Radio Panteion",
+        "town": "Athens",
         "logo": "../assets/logos/panteion-200x200.jpg",
         "website": "http://www.panteion.gr/",
         "stream_url": "https://entasistream.tuc.gr/radio/8010/panteion.mp3",
