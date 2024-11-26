@@ -8,14 +8,6 @@ var stations = [
         "description": "Ο Ραδιοφωνικός σταθμός του Πολυτεχνείου Κρήτης είναι από τους πρώτους πανεπιστημιακούς ραδιοφωνικούς σταθμούς στην Ελλάδα. Δημιουργήθηκε το 1995 από μία ομάδα φοιτητών της πολυτεχνικής κοινότητάς μας. Από τότε, ο σταθμός έχει εξελιχθεί από ένα απλό ερασιτεχνικό σταθμό σε ένα σταθμό ημιεπαγγελματικού, αν όχι επαγγελματικού, επιπέδου."
     },
     {
-        "title": "Rat FM",
-        "town": "Chania",
-        "logo": "../assets/logos/ratfm-200x200.png",
-        "website": "http://rat-fm.weebly.com/",
-        "stream_url": "https://entasistream.tuc.gr/radio/8010/ratfm.mp3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sapien et lorem euismod tempus non sed sapien. Donec porta velit a nisl sodales suscipit. Quisque sagittis interdum eros, ac auctor diam consectetur at. Aliquam mollis, augue non vehicula bibendum, lectus sapien facilisis urna, vitae mollis nunc nisi vel nisi. Etiam lacinia convallis mattis. Curabitur vel pharetra orci. Nam id tristique neque, in mollis mi. Maecenas vel nisi quis diam placerat posuere. Maecenas nec ligula odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque efficitur, elit et convallis faucibus, eros ex fermentum mi, condimentum faucibus ligula felis quis orci. Duis venenatis convallis lorem et porttitor. Duis ornare nulla ac felis tristique, a sagittis felis scelerisque. Aliquam vitae posuere eros."
-    },
-    {
         "title": "Matzore 89.1",
         "town": "Rethymno",
         "logo": ".../assets/logos/matzore-200x200.png",
@@ -56,14 +48,6 @@ var stations = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sapien et lorem euismod tempus non sed sapien. Donec porta velit a nisl sodales suscipit. Quisque sagittis interdum eros, ac auctor diam consectetur at. Aliquam mollis, augue non vehicula bibendum, lectus sapien facilisis urna, vitae mollis nunc nisi vel nisi. Etiam lacinia convallis mattis. Curabitur vel pharetra orci. Nam id tristique neque, in mollis mi. Maecenas vel nisi quis diam placerat posuere. Maecenas nec ligula odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque efficitur, elit et convallis faucibus, eros ex fermentum mi, condimentum faucibus ligula felis quis orci. Duis venenatis convallis lorem et porttitor. Duis ornare nulla ac felis tristique, a sagittis felis scelerisque. Aliquam vitae posuere eros."
     },
     {
-        "title": "DPSD radio",
-        "town": "Syros",
-        "logo": "../assets/logos/entasi_200x200.png",
-        "website": "http://my.aegean.gr/radio/Syros/",
-        "stream_url": "https://entasistream.tuc.gr/radio/8010/dpsd.mp3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sapien et lorem euismod tempus non sed sapien. Donec porta velit a nisl sodales suscipit. Quisque sagittis interdum eros, ac auctor diam consectetur at. Aliquam mollis, augue non vehicula bibendum, lectus sapien facilisis urna, vitae mollis nunc nisi vel nisi. Etiam lacinia convallis mattis. Curabitur vel pharetra orci. Nam id tristique neque, in mollis mi. Maecenas vel nisi quis diam placerat posuere. Maecenas nec ligula odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque efficitur, elit et convallis faucibus, eros ex fermentum mi, condimentum faucibus ligula felis quis orci. Duis venenatis convallis lorem et porttitor. Duis ornare nulla ac felis tristique, a sagittis felis scelerisque. Aliquam vitae posuere eros."
-    },
-    {
         "title": "Studio FM1",
         "town": "Heraklio",
         "logo": "../assets/logos/fm1-200x200.png",
@@ -72,19 +56,19 @@ var stations = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sapien et lorem euismod tempus non sed sapien. Donec porta velit a nisl sodales suscipit. Quisque sagittis interdum eros, ac auctor diam consectetur at. Aliquam mollis, augue non vehicula bibendum, lectus sapien facilisis urna, vitae mollis nunc nisi vel nisi. Etiam lacinia convallis mattis. Curabitur vel pharetra orci. Nam id tristique neque, in mollis mi. Maecenas vel nisi quis diam placerat posuere. Maecenas nec ligula odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque efficitur, elit et convallis faucibus, eros ex fermentum mi, condimentum faucibus ligula felis quis orci. Duis venenatis convallis lorem et porttitor. Duis ornare nulla ac felis tristique, a sagittis felis scelerisque. Aliquam vitae posuere eros."
     },
     {
-        "title": "yUTH-Radio",
-        "town": "Volos",
-        "logo": "../assets/logos/yuth-200x200.png",
-        "website": "http://yuth-radio.com/",
-        "stream_url": "https://entasistream.tuc.gr/radio/8010/yuth.mp3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sapien et lorem euismod tempus non sed sapien. Donec porta velit a nisl sodales suscipit. Quisque sagittis interdum eros, ac auctor diam consectetur at. Aliquam mollis, augue non vehicula bibendum, lectus sapien facilisis urna, vitae mollis nunc nisi vel nisi. Etiam lacinia convallis mattis. Curabitur vel pharetra orci. Nam id tristique neque, in mollis mi. Maecenas vel nisi quis diam placerat posuere. Maecenas nec ligula odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque efficitur, elit et convallis faucibus, eros ex fermentum mi, condimentum faucibus ligula felis quis orci. Duis venenatis convallis lorem et porttitor. Duis ornare nulla ac felis tristique, a sagittis felis scelerisque. Aliquam vitae posuere eros."
-    },
-    {
-        "title": "Entasi Radio 93.5",
-        "town": "Chania",
+        "title": "ROFA Radio",
+        "town": "Alexandroupoli",
         "logo": "../assets/logos/rofa-200x200.png",
         "website": "http://rofa.caster.fm/",
         "stream_url": "https://entasistream.tuc.gr/radio/8010/rofa.mp3",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sapien et lorem euismod tempus non sed sapien. Donec porta velit a nisl sodales suscipit. Quisque sagittis interdum eros, ac auctor diam consectetur at. Aliquam mollis, augue non vehicula bibendum, lectus sapien facilisis urna, vitae mollis nunc nisi vel nisi. Etiam lacinia convallis mattis. Curabitur vel pharetra orci. Nam id tristique neque, in mollis mi. Maecenas vel nisi quis diam placerat posuere. Maecenas nec ligula odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque efficitur, elit et convallis faucibus, eros ex fermentum mi, condimentum faucibus ligula felis quis orci. Duis venenatis convallis lorem et porttitor. Duis ornare nulla ac felis tristique, a sagittis felis scelerisque. Aliquam vitae posuere eros."
-    }
+    },
+    {
+        "title": "Ράδιο Πάντειον",
+        "town": "Αθήνα",
+        "logo": "../assets/logos/panteion-200x200.jpg",
+        "website": "http://www.panteion.gr/",
+        "stream_url": "https://entasistream.tuc.gr/radio/8010/panteion.mp3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sapien et lorem euismod tempus non sed sapien. Donec porta velit a nisl sodales suscipit. Quisque sagittis interdum eros, ac auctor diam consectetur at. Aliquam mollis, augue non vehicula bibendum, lectus sapien facilisis urna, vitae mollis nunc nisi vel nisi. Etiam lacinia convallis mattis. Curabitur vel pharetra orci. Nam id tristique neque, in mollis mi. Maecenas vel nisi quis diam placerat posuere. Maecenas nec ligula odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque efficitur, elit et convallis faucibus, eros ex fermentum mi, condimentum faucibus ligula felis quis orci. Duis venenatis convallis lorem et porttitor. Duis ornare nulla ac felis tristique, a sagittis felis scelerisque. Aliquam vitae posuere eros."
+    },
 ]
