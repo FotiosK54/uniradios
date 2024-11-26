@@ -3,7 +3,7 @@ var stations = [
         "title": "Uni Radio Marathon",
         "town": "Greece",
         "logo": "assets/arms.png",
-        "website": "https://uniradiomarathon.gr",
+        "website": "https://uniradios.gr",
         "stream_url": "https://entasistream.tuc.gr/radio/8000/main.mp3",
 		"nowplaying": "https://entasiradio.tuc.gr/ftp/jazler/nowonair.html",
 		"alias": "uni_marathon",
