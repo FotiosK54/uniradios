@@ -20,7 +20,9 @@ a {
 body {
   margin: 0;
   /* background-color: #F2D7D3; */
-  background-color: #ACEBD5;
+  /* background-color: #ACEBD5; */
+  background-color: #bfb8db;
+  /* background-image: url('../assets/hands4.png'); */
   font-family: 'Oswald', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -59,7 +61,7 @@ body {
   top: 60%;
   left: -28%;
   /* background: #18DFAD; */
-  background: #6d0ecd;
+  background: #f2d5b7;
   width: 100%;
   height: 300vw;
   transform-origin: 50% 49%;
@@ -72,7 +74,7 @@ body {
   animation: drift 9000ms infinite linear;
   opacity: 1;
   /* background: #33476a; */
-  background: #0A9396;
+  background: #8d1439;
   /* background: #0A9396; */
 
   top: 60%;
@@ -84,7 +86,7 @@ body {
   /* background: #F12645; */
   top: 60%;
   /* background: #eeee22; */
-  background: #FAB43D;
+  background: #482f8b;
   left: -36%;
   z-index: -2;
 }
