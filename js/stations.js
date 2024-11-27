@@ -54,7 +54,7 @@ var stations = [
         "town": "Rhodes",
         "logo": "assets/logos/escapula-200x200.png",
         "website": "http://my.aegean.gr/radio/Rhodes/",
-        "stream_url": "https://entasistream.tuc.gr/radio/8010/escapula.mp3",
+        "stream_url": "http://radio.myaegean.gr:8000/escapula.mp3",
 		"nowplaying": "",
 		"alias": "escapula",
 		"description": "Ο ραδιοφωνικός σταθμός «Escapula» ξεκίνησε το 2011 να εκπέμπει ζωντανά μέσω διαδικτύου με εκπομπές, αγκαλιάζοντας κάθε μουσικό είδος και γούστο. Με μεράκι αμείωτο, συνεχίζοντας την παράδοση της παλαιότερης ραδιοφωνικής ομάδας που λειτουργούσε στο νησί, μα ξεκινώντας εκ νέου το \"ταξίδι\" του, φιλοδοξεί να αποτελέσει μια ζωντανή παρουσία εντός και εκτός του πανεπιστημίου.	Aπό το 2012 και μετά ο ραδιοφωνικός σταθμός \"Escapula\" λειτουργεί ως ομάδα των Α.Π.Ο.Σ.Α.Ε (Αθλητικές και Πολιτιστικές Ομάδες Σχολής Ανθρωπιστικών Επιστημών)."
@@ -84,7 +84,7 @@ var stations = [
         "town": "Athens",
         "logo": "assets/logos/panteion-200x200.jpg",
         "website": "https://radiopanteion.com/",
-        "stream_url": "https://eu8.fastcast4u.com/proxy/undrad04?mp=/stream",
+        "stream_url": "http://stream.radiojar.com/ybz2g5nh5ehvv?1732699085",
 		"nowplaying": "",
 		"alias": "panteion",
 		"description": "Radio pantion"
