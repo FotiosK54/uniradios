@@ -102,150 +102,150 @@ var stations = [
 ]
 
 var schedule = [
-    {
-		"start": "29/11/2024 13:00",
-		"finish": "29/11/2024 13:59",
-        "title": "Entasi Radio 93.5",
-        "town": "Chania"
-    },
-    {
-		"start": "04/09/2022 10:00",
-		"finish": "04/09/2022 10:59",
-        "title": "Matzore 89.1",
-        "town": "Rethymno"
-    },
     // {
-	// 	"start": "04/09/2022 11:00",
-	// 	"finish": "04/09/2022 11:59",
-    //     "title": "DPSD Radio",
-    //     "town": "Syros"
-    // },
-    {
-		"start": "04/09/2022 12:00",
-		"finish": "04/09/2022 12:59",
-        "title": "Underground Radio",
-        "town": "Xanthi"
-    },
-    // {
-	// 	"start": "04/09/2022 13:00",
-	// 	"finish": "04/09/2022 13:59",
-    //     "title": "RAT FM",
+	// 	"start": "29/11/2024 13:00",
+	// 	"finish": "29/11/2024 13:59",
+    //     "title": "Entasi Radio 93.5",
     //     "town": "Chania"
     // },
-    {
-		"start": "04/09/2022 14:00",
-		"finish": "04/09/2022 14:59",
-        "title": "Studio FM1",
-        "town": "Heraklion",
-    },
     // {
-	// 	"start": "04/09/2022 15:00",
-	// 	"finish": "04/09/2022 15:59",
-    //     "title": "Webradio EAP",
+	// 	"start": "04/09/2022 10:00",
+	// 	"finish": "04/09/2022 10:59",
+    //     "title": "Matzore 89.1",
+    //     "town": "Rethymno"
+    // },
+    // // {
+	// // 	"start": "04/09/2022 11:00",
+	// // 	"finish": "04/09/2022 11:59",
+    // //     "title": "DPSD Radio",
+    // //     "town": "Syros"
+    // // },
+    // {
+	// 	"start": "04/09/2022 12:00",
+	// 	"finish": "04/09/2022 12:59",
+    //     "title": "Underground Radio",
+    //     "town": "Xanthi"
+    // },
+    // // {
+	// // 	"start": "04/09/2022 13:00",
+	// // 	"finish": "04/09/2022 13:59",
+    // //     "title": "RAT FM",
+    // //     "town": "Chania"
+    // // },
+    // {
+	// 	"start": "04/09/2022 14:00",
+	// 	"finish": "04/09/2022 14:59",
+    //     "title": "Studio FM1",
+    //     "town": "Heraklion",
+    // },
+    // // {
+	// // 	"start": "04/09/2022 15:00",
+	// // 	"finish": "04/09/2022 15:59",
+    // //     "title": "Webradio EAP",
+    // //     "town": "Patra"
+    // // },
+    // // {
+	// // 	"start": "04/09/2022 16:00",
+	// // 	"finish": "04/09/2022 16:59",
+    // //     "title": "yUTH Radio",
+    // //     "town": "Volos"
+    // // },
+    // {
+	// 	"start": "04/09/2022 17:00",
+	// 	"finish": "04/09/2022 17:59",
+    //     "title": "UP FM",
     //     "town": "Patra"
     // },
     // {
-	// 	"start": "04/09/2022 16:00",
-	// 	"finish": "04/09/2022 16:59",
-    //     "title": "yUTH Radio",
-    //     "town": "Volos"
+	// 	"start": "04/09/2022 18:00",
+	// 	"finish": "04/09/2022 18:59",
+    //     "title": "RaSPI",
+    //     "town": "Ioannina"
     // },
-    {
-		"start": "04/09/2022 17:00",
-		"finish": "04/09/2022 17:59",
-        "title": "UP FM",
-        "town": "Patra"
-    },
-    {
-		"start": "04/09/2022 18:00",
-		"finish": "04/09/2022 18:59",
-        "title": "RaSPI",
-        "town": "Ioannina"
-    },
-	// {
-	// 	"start": "04/09/2022 19:00",
-	// 	"finish": "04/09/2022 19:59",
-    //     "title": "Webradio EAP",
-    //     "town": "Patra"
-    // },
-    {
-		"start": "04/09/2022 20:00",
-		"finish": "04/09/2022 20:59",
-        "title": "Escàpula Radio",
-        "town": "Rhodes"
-    },
-    {
-		"start": "04/09/2022 21:00",
-		"finish": "04/09/2022 21:59",
-        "title": "ROFA Station",
-        "town": "Alexandroupoli"
-    },
-	// {
-	// 	"start": "04/09/2022 22:00",
-	// 	"finish": "04/09/2022 22:59",
-    //     "title": "DPSD Radio",
-    //     "town": "Syros"
-    // },
-    {
-		"start": "04/09/2022 23:00",
-		"finish": "04/09/2022 23:59",
-        "title": "Matzore 89.1",
-        "town": "Rethymno"
-    },
-	{
-		"start": "04/10/2022 00:00",
-		"finish": "04/10/2022 00:59",
-        "title": "Entasi Radio 93.5",
-        "town": "Chania"
-    },
+	// // {
+	// // 	"start": "04/09/2022 19:00",
+	// // 	"finish": "04/09/2022 19:59",
+    // //     "title": "Webradio EAP",
+    // //     "town": "Patra"
+    // // },
     // {
-	// 	"start": "04/10/2022 01:00",
-	// 	"finish": "04/10/2022 01:59",
-    //     "title": "yUTH Radio",
-    //     "town": "Volos"
+	// 	"start": "04/09/2022 20:00",
+	// 	"finish": "04/09/2022 20:59",
+    //     "title": "Escàpula Radio",
+    //     "town": "Rhodes"
     // },
-    {
-		"start": "04/10/2022 02:00",
-		"finish": "04/10/2022 02:59",
-        "title": "Studio FM1",
-        "town": "Heraklion",
-    },
-    {
-		"start": "04/10/2022 03:00",
-		"finish": "04/10/2022 03:59",
-        "title": "Escàpula Radio",
-        "town": "Rhodes"
-    },
-    {
-		"start": "04/10/2022 04:00",
-		"finish": "04/10/2022 04:59",
-        "title": "RaSPI",
-        "town": "Ioannina"
-    },
     // {
-	// 	"start": "04/10/2022 05:00",
-	// 	"finish": "04/10/2022 05:59",
-    //     "title": "RAT FM",
+	// 	"start": "04/09/2022 21:00",
+	// 	"finish": "04/09/2022 21:59",
+    //     "title": "ROFA Station",
+    //     "town": "Alexandroupoli"
+    // },
+	// // {
+	// // 	"start": "04/09/2022 22:00",
+	// // 	"finish": "04/09/2022 22:59",
+    // //     "title": "DPSD Radio",
+    // //     "town": "Syros"
+    // // },
+    // {
+	// 	"start": "04/09/2022 23:00",
+	// 	"finish": "04/09/2022 23:59",
+    //     "title": "Matzore 89.1",
+    //     "town": "Rethymno"
+    // },
+	// {
+	// 	"start": "04/10/2022 00:00",
+	// 	"finish": "04/10/2022 00:59",
+    //     "title": "Entasi Radio 93.5",
     //     "town": "Chania"
     // },
-    {
-		"start": "04/10/2022 06:00",
-		"finish": "04/10/2022 06:59",
-        "title": "Underground Radio",
-        "town": "Xanthi"
-    },
-    {
-		"start": "04/10/2022 07:00",
-		"finish": "04/10/2022 07:59",
-        "title": "ROFA Station",
-        "town": "Alexandroupoli"
-    },
-    {
-		"start": "04/10/2022 08:00",
-		"finish": "04/10/2022 08:59",
-        "title": "UP FM",
-        "town": "Patra"
-    }
+    // // {
+	// // 	"start": "04/10/2022 01:00",
+	// // 	"finish": "04/10/2022 01:59",
+    // //     "title": "yUTH Radio",
+    // //     "town": "Volos"
+    // // },
+    // {
+	// 	"start": "04/10/2022 02:00",
+	// 	"finish": "04/10/2022 02:59",
+    //     "title": "Studio FM1",
+    //     "town": "Heraklion",
+    // },
+    // {
+	// 	"start": "04/10/2022 03:00",
+	// 	"finish": "04/10/2022 03:59",
+    //     "title": "Escàpula Radio",
+    //     "town": "Rhodes"
+    // },
+    // {
+	// 	"start": "04/10/2022 04:00",
+	// 	"finish": "04/10/2022 04:59",
+    //     "title": "RaSPI",
+    //     "town": "Ioannina"
+    // },
+    // // {
+	// // 	"start": "04/10/2022 05:00",
+	// // 	"finish": "04/10/2022 05:59",
+    // //     "title": "RAT FM",
+    // //     "town": "Chania"
+    // // },
+    // {
+	// 	"start": "04/10/2022 06:00",
+	// 	"finish": "04/10/2022 06:59",
+    //     "title": "Underground Radio",
+    //     "town": "Xanthi"
+    // },
+    // {
+	// 	"start": "04/10/2022 07:00",
+	// 	"finish": "04/10/2022 07:59",
+    //     "title": "ROFA Station",
+    //     "town": "Alexandroupoli"
+    // },
+    // {
+	// 	"start": "04/10/2022 08:00",
+	// 	"finish": "04/10/2022 08:59",
+    //     "title": "UP FM",
+    //     "town": "Patra"
+    // }
 ]
 
 $(document).ready(function(){
@@ -294,7 +294,7 @@ $(document).ready(function(){
 	'<div class="info">' +
 		'<div class="title">' + stations[station_id]['title'] + '</div>' +
 		'<div class="artist">' + stations[station_id]['town'] + '</div>' +
-		'<div class="live-time">Live: 09:00 - 09:59</div>' + // Default example time
+		// '<div class="live-time">Live: 09:00 - 09:59</div>' + // Default example time
 	'</div>' +
 	'</li>';
 
