@@ -225,7 +225,7 @@ body {
   color: #252120;
 }
 
-.back_btn {
+/* .back_btn {
   cursor: pointer;
   position: relative;
   color: rgba(37, 33, 32, 0.4);
@@ -237,11 +237,31 @@ body {
 }
 .back_btn .circle {
   background-color: rgba(37, 33, 32, 0.3);
-  width: 24px;
+  background-image: url('../assets/hand2.png'); /* Path to your logo */
+  /*background-size: cover; /* Makes the logo fit within the circle */
+  /*background-position: center; /* Centers the logo inside the circle */
+  /*width: 24px;
   height: 24px;
   border-radius: 50%;
   margin-right: 8px;
+} */
+.back_btn {
+  cursor: pointer;
+  position: relative;
+  color: rgba(37, 33, 32, 0.6); /* Adjust color */
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  display: none;
+  opacity: 0;
 }
+
+.back_btn .icon {
+  font-size: 20px; /* Size of the icon */
+  margin-right: 8px; /* Space between icon and text */
+}
+
+
 .nav {
   will-change: transform;
   position: fixed;
