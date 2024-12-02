@@ -1,3 +1,5 @@
+
+
 @media only screen and (max-width: 768px) {
     .header .logo-text {
         display: none !important;
@@ -136,17 +138,70 @@
         position: absolute;
     }
 
-    #donate_page h1 {
+     #donate_page h1 {
         font-size: 1.5rem !important;
     }
 
-    #donate_page .donate_center {
-        position: fixed;
-        top: 30%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+    /* Ensure the donate page is scrollable */
+    #donate_page {
+        padding: 20px; /* Add padding for spacing */
+        text-align: 50%; /* Center-align content */
+        overflow-y: 10em; /* Allow scrolling if content overflows */
+        height: 50em; /* Remove any fixed height */
     }
-    
 
+    /* Fix the donate center container */
+    #donate_page .donate_center {
+        display: fixed; /* Use flexbox for layout */
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align horizontally */
+        justify-content: flex-start; /* Start content at the top */
+        width: 100%; /* Full width */
+        padding: 20px; /* Add padding */
+        margin: 0 auto; /* Center the container */
+        box-sizing: border-box; /* Ensure padding is included in the width */
+        gap: 20px; /* Add spacing between elements */
+        height: auto; /* Let the height adjust based on content */
+        position: relative; /* Ensure the container participates in flow */
+    }
+
+    /* Make images visible and round */
+    #donate_page img {
+        display: block; /* Ensure images are block-level */
+        margin: 0 auto 15px; /* Center images and add spacing below */
+        width: 40%; /* Make images responsive */
+        max-width: 300px; /* Set maximum width for images */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 50%; /* Make images round */
+        object-fit: cover; /* Ensure images fill the circular shape */
+    }
+
+    #donate_page p {
+        font-size: 1rem; /* Maintain standard text size */
+        line-height: 1.5; /* Improve readability */
+        margin-bottom: 20px; /* Add spacing between text and other elements */
+    }
+
+    /* Style the donate button */
+    #donate_page .donate-btn {
+        display: inline-block; /* Ensure button appears inline */
+        padding: 10px 20px; /* Add padding for clickable area */
+        font-size: 18px; /* Set readable text size */
+        color: white; /* Set text color */
+        background-color: #FF0000; /* Use purple background */
+        border-radius: 5px; /* Add rounded corners */
+        text-decoration: none; /* Remove underline */
+        margin-top: 20px; /* Add space above button */
+    }
+
+    #donate_page .donate-btn:hover {
+        background-color: #8d1439; /* Slightly darker purple on hover */
+    }
+
+    /* Ensure footer is properly aligned */
+    #donate_page footer {
+        margin-top: 20px;
+        font-size: 0.9rem;
+        color: #fff;
+    }
 }
