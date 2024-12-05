@@ -97,6 +97,15 @@
         top: 45%;
     }
 
+    .about_center img {
+        width: 80%; /* Adjust as needed */
+        max-width: 200px; /* Ensure it doesn’t exceed a certain size */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 50%; /* Keep the circular shape */
+        display: block; /* Center image if needed */
+        margin: 0 auto; /* Center horizontally */
+    }
+
     #radio_info {
         width: 80vw;
         height: auto;
@@ -146,8 +155,8 @@
     #donate_page {
         padding: 20px; /* Add padding for spacing */
         text-align: 50%; /* Center-align content */
-        overflow-y: 10em; /* Allow scrolling if content overflows */
-        height: 50em; /* Remove any fixed height */
+        overflow-y: 60em; /* Allow scrolling if content overflows */
+        height: 60em; /* Remove any fixed height */
     }
 
     /* Fix the donate center container */
