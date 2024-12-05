@@ -155,7 +155,7 @@
     #donate_page {
         padding: 20px; /* Add padding for spacing */
         text-align: 50%; /* Center-align content */
-        overflow-y: 60em; /* Allow scrolling if content overflows */
+        overflow-y: 10em; /* Allow scrolling if content overflows */
         height: 60em; /* Remove any fixed height */
     }
 
