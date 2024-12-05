@@ -67,7 +67,7 @@
     }
 
     .donate_center {
-        width: 85vw;
+        width:75vw;
         height: 40vh;
     }
 
@@ -98,7 +98,7 @@
     }
 
     .about_center img {
-        width: 80%; /* Adjust as needed */
+        width: 30%; /* Adjust as needed */
         max-width: 200px; /* Ensure it doesn’t exceed a certain size */
         height: auto; /* Maintain aspect ratio */
         border-radius: 50%; /* Keep the circular shape */
