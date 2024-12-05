@@ -15,7 +15,7 @@ var stations = [
         "logo": "assets/logos/entasi-200x200.png",
         "website": "https://entasiradio.tuc.gr",
         "stream_url": "https://entasistream.tuc.gr/radio/8000/main.mp3",
-		"nowplaying": "https://entasiradio.tuc.gr/ftp/jazler/nowonair.html",
+		"nowplaying": "https://entasiradio.tuc.gr/ftp/jazler/NowOnAir.xml",
 		"alias": "entasi_radio",
         "description": "Ο Ραδιοφωνικός σταθμός του Πολυτεχνείου Κρήτης είναι από τους πρώτους πανεπιστημιακούς ραδιοφωνικούς σταθμούς στην Ελλάδα. Δημιουργήθηκε το 1995 από μία ομάδα φοιτητών της πολυτεχνικής κοινότητάς μας. Από τότε, ο σταθμός έχει εξελιχθεί από ένα απλό ερασιτεχνικό σταθμό σε ένα σταθμό ημιεπαγγελματικού, αν όχι επαγγελματικού, επιπέδου."
     },
