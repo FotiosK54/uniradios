@@ -298,28 +298,31 @@ $(document).ready(function(){
 	'</div>' +
 	'</li>';
 
-// Dynamically generate the list for other stations
-$.each(stations, function(index, station) {
-if (index > 0) {
-	// Find corresponding schedule for the station
-	var liveTime = schedule.find(function(slot) {
-		return slot.title === station.title;
-	});
+// Sort the schedule array by start time
+schedule.sort(function(a, b) {
+    return new Date(a.start) - new Date(b.start);
+});
 
-	// Format live time if it exists
-	var timeInfo = liveTime
-		? 'Live: ' + liveTime.start.split(' ')[1] + ' - ' + liveTime.finish.split(' ')[1]
-		: 'No Live Schedule';
+// Dynamically generate the list for other stations in time order
+$.each(schedule, function(index, slot) {
+    // Find the corresponding station for the schedule slot
+    var station = stations.find(function(station) {
+        return station.title === slot.title;
+    });
 
-	player_list += '<li class="list_item">' +
-		'<div class="thumb" style="background-image: url(' + station['logo'] + ')"></div>' +
-		'<div class="info">' +
-			'<div class="title">' + station['title'] + '</div>' +
-			'<div class="artist">' + station['town'] + '</div>' +
-			'<div class="live-time">' + timeInfo + '</div>' +
-		'</div>' +
-	'</li>';
-}
+    // Only proceed if the station exists
+    if (station) {
+        var timeInfo = 'Live: ' + slot.start.split(' ')[1] + ' - ' + slot.finish.split(' ')[1];
+
+        player_list += '<li class="list_item">' +
+            '<div class="thumb" style="background-image: url(' + station['logo'] + ')"></div>' +
+            '<div class="info">' +
+                '<div class="title">' + station['title'] + '</div>' +
+                '<div class="artist">' + station['town'] + '</div>' +
+                '<div class="live-time">' + timeInfo + '</div>' +
+            '</div>' +
+        '</li>';
+    }
 });
 
 $('.player_list').html(player_list);
