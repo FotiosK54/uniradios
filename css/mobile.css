@@ -147,7 +147,7 @@
         position: absolute;
     }
 
-     #donate_page h1 {
+    #donate_page h1 {
         font-size: 1.5rem !important;
     }
 
@@ -155,8 +155,8 @@
     #donate_page {
         padding: 20px; /* Add padding for spacing */
         text-align: 50%; /* Center-align content */
-        overflow-y: 10em; /* Allow scrolling if content overflows */
-        height: 60em; /* Remove any fixed height */
+        overflow-y: auto; /* Allow scrolling if content overflows */
+        /*height: 60em; /* Remove any fixed height */
     }
 
     /* Fix the donate center container */
