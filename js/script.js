@@ -111,13 +111,13 @@ var schedule = [
     {
 		"start": "12/07/2024 10:00",
 		"finish": "12/07/2024 10:59",
-        "title": "RASPI",
+        "title": "RaSPI",
         "town": "Ioannina"
     },
     {
 		"start": "12/07/2024 11:00",
 		"finish": "12/07/2024 11:59",
-        "title": "Escapula Radio",
+        "title": "Escàpula Radio",
         "town": "Rhodes"
     },
     {
@@ -129,7 +129,7 @@ var schedule = [
     {
 		"start": "12/07/2024 13:00",
 		"finish": "12/07/2024 13:59",
-        "title": "Undergorund Radio",
+        "title": "Underground Radio",
         "town": "Xanhti"
     },
     {
