@@ -156,7 +156,7 @@
         padding: 20px; /* Add padding for spacing */
         text-align: 50%; /* Center-align content */
         overflow-y: auto; /* Allow scrolling if content overflows */
-        height: 60em; /* Remove any fixed height */
+        /*height: 60em; /* Remove any fixed height */
     }
 
     /* Fix the donate center container */
