@@ -155,8 +155,8 @@
     #donate_page {
         padding: 20px; /* Add padding for spacing */
         text-align: 50%; /* Center-align content */
-        overflow-y: auto; /* Allow scrolling if content overflows */
-        /*height: 60em; /* Remove any fixed height */
+        overflow-y: 50px; /* Allow scrolling if content overflows */
+        height: 45em; /* Remove any fixed height */
     }
 
     /* Fix the donate center container */
@@ -179,7 +179,7 @@
         display: block; /* Ensure images are block-level */
         margin: 0 auto 15px; /* Center images and add spacing below */
         width: 40%; /* Make images responsive */
-        max-width: 300px; /* Set maximum width for images */
+        max-width: 100px; /* Set maximum width for images */
         height: auto; /* Maintain aspect ratio */
         border-radius: 50%; /* Make images round */
         object-fit: cover; /* Ensure images fill the circular shape */
