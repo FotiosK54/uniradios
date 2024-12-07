@@ -130,7 +130,7 @@ var schedule = [
 		"start": "12/07/2024 13:00",
 		"finish": "12/07/2024 13:59",
         "title": "Underground Radio",
-        "town": "Xanhti"
+        "town": "Xanthi"
     },
     {
 		"start": "12/07/2024 14:00",
