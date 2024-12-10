@@ -873,26 +873,6 @@ body {
   text-decoration: underline;
   padding-bottom: 2rem;
 }
-.donate-btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 15px 30px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  background-color: #FF0000;
-  border: none;
-  border-radius: 25px;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
-}
-.donate-btn:hover {
-  background-color: #8d1439;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-  /* transform: scale(1.05); */
-}
 
 #about {
   width: 100%;
