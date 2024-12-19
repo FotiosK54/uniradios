@@ -90,6 +90,26 @@ body {
   left: -36%;
   z-index: -2;
 }
+
+
+.social-media-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #8d1439;
+}
+
+
 @keyframes drift {
   from {
     transform: rotate(0deg);
