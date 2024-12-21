@@ -223,12 +223,12 @@ var stations = [
 ]
 
 var schedule = [
-    // {
-	// 	"start": "12/07/2024 09:00",
-	// 	"finish": "12/07/2024 09:59",
-    //     "title": "Entasi Radio 93.5",
-    //     "town": "Chania"
-    // },
+    {
+		"start": "12/07/2024 09:00",
+		"finish": "12/07/2024 09:59",
+        "title": "Entasi Radio 93.5",
+        "town": "Chania"
+    },
     {
 		"start": "12/07/2024 10:00",
 		"finish": "12/07/2024 10:59",
