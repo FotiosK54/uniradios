@@ -223,23 +223,23 @@ var stations = [
 ]
 
 var schedule = [
-    {
-		"start": "12/07/2024 09:00",
-		"finish": "12/07/2024 09:59",
-        "title": "Entasi Radio 93.5",
-        "town": "Chania"
-    },
+    // {
+	// 	"start": "12/07/2024 09:00",
+	// 	"finish": "12/07/2024 09:59",
+    //     "title": "Entasi Radio 93.5",
+    //     "town": "Chania"
+    // },
     {
 		"start": "12/07/2024 10:00",
 		"finish": "12/07/2024 10:59",
-        "title": "RaSPI",
-        "town": "Ioannina"
+        "title": "Matzore 89.1 FM",
+        "town": "Rethymnon"
     },
     {
 		"start": "12/07/2024 11:00",
 		"finish": "12/07/2024 11:59",
-        "title": "Escàpula Radio",
-        "town": "Rhodes"
+        "title": "RaSPI",
+        "town": "Ioannina"
     },
     {
 		"start": "12/07/2024 12:00",
@@ -256,26 +256,26 @@ var schedule = [
     {
 		"start": "12/07/2024 14:00",
 		"finish": "12/07/2024 14:59",
-        "title": "Matzore 89.1",
-        "town": "Rethymno",
+        "title": "Escàpula Radio",
+        "town": "Rhodes",
     },
     {
 		"start": "12/07/2024 15:00",
 		"finish": "12/07/2024 15:59",
-        "title": "Radio Panteion",
-        "town": "Athens"
+        "title": "Studio FM1 105.4",
+        "town": "Heraklion"
     },
     {
 		"start": "12/07/2024 16:00",
 		"finish": "12/07/2024 16:59",
-        "title": "Studio FM1",
-        "town": "Heraklion"
+        "title": "ROFA Station",
+        "town": "Alexandroupoli"
     },
     {
 		"start": "12/07/2024 17:00",
 		"finish": "12/07/2024 17:59",
-        "title": "ROFA Station",
-        "town": "Alexandroupoli"
+        "title": "Radio Panteion",
+        "town": "Athens"
     },
 
 
