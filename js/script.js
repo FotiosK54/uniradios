@@ -313,7 +313,7 @@ var schedule = [
 	{
 		"start": "12/07/2024 23:00",
 		"finish": "12/07/2024 23:59",
-        "title": "Web EAP",
+        "title": "Web EAP Radio",
         "town": "Patra"
     }
 ]
