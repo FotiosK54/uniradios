@@ -232,7 +232,7 @@ var schedule = [
     {
 		"start": "12/07/2024 10:00",
 		"finish": "12/07/2024 10:59",
-        "title": "Matzore 89.1 FM",
+        "title": "Matzore 89.1",
         "town": "Rethymnon"
     },
     {
