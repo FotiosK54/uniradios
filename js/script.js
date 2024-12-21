@@ -262,7 +262,7 @@ var schedule = [
     {
 		"start": "12/07/2024 15:00",
 		"finish": "12/07/2024 15:59",
-        "title": "Studio FM1 105.4",
+        "title": "Studio FM1",
         "town": "Heraklion"
     },
     {
